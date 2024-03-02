@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 function TypeWritterEffect() {
   return (
     <>
-      <div className="type-writter-effect w-[250px]">
+      <div className="w-full px-5 type-writter-effect md:w-[450px]">
         <Typewriter
           options={{
             loop: false,

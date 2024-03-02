@@ -66,3 +66,22 @@
   }
 }
 
+.Enable {
+  cursor: pointer;
+  pointer-events: visible;
+
+}
+
+.Disable {
+  background-color: red;
+  pointer-events: none;
+}
+
+.map-component-wrapper {
+  max-height: 100vh;
+}
+.doctors-list {
+  min-height: 100vh;
+  max-height: 100%;
+  overflow-y: scroll;
+}

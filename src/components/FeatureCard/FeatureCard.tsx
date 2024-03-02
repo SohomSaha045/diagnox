@@ -19,7 +19,7 @@ const FeatureCard = () => {
   }, []);
   return (
     <>
-      <div className=" cursor-pointer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="cursor-pointer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {data.map((item, index) => (
           <motion.div
             key={index}

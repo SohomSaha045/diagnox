@@ -1,0 +1,117 @@
+[
+{
+"address": "C 24",
+"category": "Hospital",
+"ratingText": "https://www.google.com/maps/place/D+N+Mohapatra+Home+Clinic/data=!4m7!3m6!1s0x3a201c28eaaaaaab:0xaeaa64aaa8dd2f94!8m2!3d22.2580846!4d84.8893585!16s%2Fg%2F11f_1j4m85!19sChIJq6qq6igcIDoRlC_dqKpkqq4?authuser=0&hl=en&rclk=1",
+"doctorName": "D N Mohapatra Home Clinic",
+"ratingText": "3.5 stars 11 Reviews",
+"stars": 3.5,
+"numberOfReviews": 11
+},
+{
+"address": "Hig 73, Kachery Rd",
+"category": "Cardiologist",
+"googleUrl": "https://www.google.com/maps/place/Godhuli+Clinic/data=!4m7!3m6!1s0x3a20193f3854de6f:0xfe1d9703e5ae9290!8m2!3d22.2265066!4d84.840618!16s%2Fg%2F11bxft4h14!19sChIJb95UOD8ZIDoRkJKu5QOXHf4?authuser=0&hl=en&rclk=1",
+"doctorName": "Godhuli Clinic",
+"ratingText": "2.6 stars 9 Reviews",
+"stars": 2.6,
+"numberOfReviews": 9
+},
+{
+"address": "JAIPRAKASH MULTISPECIALTY HOSPITAL",
+"category": "Doctor",
+"googleUrl": "https://www.google.com/maps/place/DR+TRILOCHAN+AGARWALA/data=!4m7!3m6!1s0x3a2019c7aa5ac4d5:0xa7291bb72f3eb8b5!8m2!3d22.2251651!4d84.7939063!16s%2Fg%2F11rx36h3w0!19sChIJ1cRaqscZIDoRtbg-L7cbKac?authuser=0&hl=en&rclk=1",
+"doctorName": "DR TRILOCHAN AGARWALA",
+"ratingText": "4.8 stars 14 Reviews",
+"stars": 4.8,
+"numberOfReviews": 14
+},
+{
+"category": "Hospital",
+"googleUrl": "https://www.google.com/maps/place/Diabetes+%26+life+style+disease+clinic/data=!4m7!3m6!1s0x3a201dd4779baf95:0xca78b6e7f179db35!8m2!3d22.2599518!4d84.9018255!16s%2Fg%2F1wj_rplw!19sChIJla-bd9QdIDoRNdt58ee2eMo?authuser=0&hl=en&rclk=1",
+"doctorName": "Diabetes & life style disease clinic",
+"ratingText": "4.7 stars 24 Reviews",
+"stars": 4.7,
+"numberOfReviews": 24
+},
+{
+"address": "ECR-67",
+"category": "Medical clinic",
+"phone": "2480453",
+"googleUrl": "https://www.google.com/maps/place/Heart+Failure+Clinic+%28+Dr.G+C+Patri%29/data=!4m7!3m6!1s0x3a2019778669ef9b:0x9205fb27aa52b633!8m2!3d22.2401433!4d84.8169729!16s%2Fg%2F11hcb95449!19sChIJm-9phncZIDoRM7ZSqif7BZI?authuser=0&hl=en&rclk=1",
+"doctorName": "Heart Failure Clinic ( Dr.G C Patri)",
+"ratingText": "3.3 stars 6 Reviews",
+"stars": 3.3,
+"numberOfReviews": 6
+},
+{
+"address": "Northern Ave",
+"category": "General hospital",
+"phone": "0661 247 3931",
+"googleUrl": "https://www.google.com/maps/place/CWS+Hospital/data=!4m7!3m6!1s0x3a201c2ca6e5da79:0xd1e929836dc72b94!8m2!3d22.255401!4d84.9008933!16s%2Fg%2F11c2q53dhs!19sChIJedrlpiwcIDoRlCvHbYMp6dE?authuser=0&hl=en&rclk=1",
+"Website": "http://cwshospital.org/",
+"doctorName": "CWS Hospital",
+"ratingText": "3.6 stars 223 Reviews",
+"stars": 3.6,
+"numberOfReviews": 223
+},
+{
+"address": "6VXM+Q7C",
+"category": "Diabetologist",
+"phone": "0661 252 2111",
+"googleUrl": "https://www.google.com/maps/place/Bansal+S+K+Dr/data=!4m7!3m6!1s0x3a201e9c27243967:0xf3479570e5683454!8m2!3d22.249437!4d84.8831521!16s%2Fg%2F1tdytspb!19sChIJZzkkJ5weIDoRVDRo5XCVR_M?authuser=0&hl=en&rclk=1",
+"doctorName": "Bansal S K Dr",
+"ratingText": "5.0 stars 1 Reviews",
+"stars": 5,
+"numberOfReviews": 1
+},
+{
+"address": "6VG6+4PM, Main Rd",
+"category": "Hospital",
+"googleUrl": "https://www.google.com/maps/place/Dr.+N.C+Patel+Clinic/data=!4m7!3m6!1s0x3a201f64269e7945:0xf300ce847c982358!8m2!3d22.2253254!4d84.8617877!16s%2Fg%2F11h5vjvvmm!19sChIJRXmeJmQfIDoRWCOYfITOAPM?authuser=0&hl=en&rclk=1",
+"doctorName": "Dr. N.C Patel Clinic",
+"ratingText": "3.2 stars 5 Reviews",
+"stars": 3.2,
+"numberOfReviews": 5
+},
+{
+"address": "Vanhi Clinic, Main Rd",
+"category": "Pediatrician",
+"phone": "091245 81004",
+"googleUrl": "https://www.google.com/maps/place/Vanhi+Clinic/data=!4m7!3m6!1s0x3a201ddd7940678b:0xa74f3292cd0a6ab7!8m2!3d22.2650923!4d84.8983701!16s%2Fg%2F11rj5y9d5s!19sChIJi2dAed0dIDoRt2oKzZIyT6c?authuser=0&hl=en&rclk=1",
+"doctorName": "Vanhi Clinic",
+"ratingText": "5.0 stars 25 Reviews",
+"stars": 5,
+"numberOfReviews": 25
+},
+{
+"address": "6WPP+629, Sector - C",
+"category": "Occupational medical physician",
+"googleUrl": "https://www.google.com/maps/place/Dr+Anand%27s+Clinic/data=!4m7!3m6!1s0x3a201ff5607d7ad7:0xb14f3c594238a248!8m2!3d22.2355309!4d84.935109!16s%2Fg%2F11g03_9lc7!19sChIJ13p9YPUfIDoRSKI4Qlk8T7E?authuser=0&hl=en&rclk=1",
+"doctorName": "Dr Anand's Clinic",
+"ratingText": "5.0 stars 1 Reviews",
+"stars": 5,
+"numberOfReviews": 1
+},
+{
+"address": "Dr. Sudhir Ranjan Clinic Kriya Yoga Dayanand Kendra, Lane",
+"category": "Diabetologist",
+"googleUrl": "https://www.google.com/maps/place/Dr.+Sudhir+Ranjan-+Diabetologist+In+Rourkela/data=!4m7!3m6!1s0x3a201d835a56e7ed:0xafc3b80ccb99605b!8m2!3d22.2595333!4d84.9016858!16s%2Fg%2F11sgkhtsbb!19sChIJ7edWWoMdIDoRW2CZywy4w68?authuser=0&hl=en&rclk=1",
+"Website": "https://drsudhirranjansamal.getmy.clinic/?utm_source=gmb&utm_medium=web&utm_campaign=tu",
+"doctorName": "Dr. Sudhir Ranjan- Diabetologist In Rourkela",
+"ratingText": "5.0 stars 6 Reviews",
+"stars": 5,
+"numberOfReviews": 6
+},
+{
+"address": "CARE CT CENTRE, INFRONT OF HITECH MEDICAL COLLAGE, M-21",
+"category": "Medical clinic",
+"phone": "093374 04480",
+"googleUrl": "https://www.google.com/maps/place/Best+Neurologist+%7C+Gastroenterologist+%7C+Cardiologist+%7C+Urologist+in+Rourkela+at+CARE+CT+CENTRE/data=!4m7!3m6!1s0x3a2019a1493ef2d7:0x873bfea24e095782!8m2!3d22.2245276!4d84.8186278!16s%2Fg%2F11lgpy1ckf!19sChIJ1_I-SaEZIDoRglcJTqL-O4c?authuser=0&hl=en&rclk=1",
+"Website": "https://ctscancarectcenter.business.site/?utm_source=gmb&utm_medium=referral",
+"doctorName": "Best Neurologist | Gastroenterologist | Cardiologist | Urologist in Rourkela at CARE CT CENTRE",
+"ratingText": "4.6 stars 34 Reviews",
+"stars": 4.6,
+"numberOfReviews": 34
+}
+]

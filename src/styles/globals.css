@@ -66,3 +66,13 @@
   }
 }
 
+.Enable {
+  cursor: pointer;
+  pointer-events: visible;
+
+}
+
+.Disable {
+  background-color: red;
+  pointer-events: none;
+}

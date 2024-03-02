@@ -7,17 +7,24 @@ import React from "react";
 export default function Home() {
   return (
     <div className="">
-
-      {/* <Nav /> */}
+      <Nav />
       <div className="h-full md:h-screen">
         <LandingPage />
       </div>
 
-      <div id="symptoms" className="h-screen">
-        <TypeWritterEffect />
-        <SelectSymptoms />
-      </div>
+      <div className="h-screen pt-10">
+        <div className="w-full flex flex-row justify-center items-center">
+          <div className="w-[400px] rounded-md h-[150px] border-2 flex flex-col justify-center items-center">
+            <TypeWritterEffect />
+          </div>
+        </div>
 
+        <div className="w-full flex flex-row justify-center items-center">
+          <div className="w-full flex flex-col justify-center items-center mb-4">
+            <SelectSymptoms />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

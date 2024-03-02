@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full min-h-screen gap-4">
       
-      {/* <Nav /> */}
+      <Nav />
       <LandingPage />
       <TypeWritter />
     </div>

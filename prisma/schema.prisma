@@ -24,7 +24,7 @@ model Doctor {
 model Patient {
   id       String   @id @default(auto()) @map("_id") @db.ObjectId
   name     String
-  email    String
+  email    String   @unique
   diseases String[] @default([])
   doctors  String[] @default([])
 }

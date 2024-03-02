@@ -21,15 +21,15 @@ const FeatureCard = () => {
   }, []);
   return (
     <>
-      <div className=" cursor-pointer px-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className=" cursor-pointer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {data.map((item, index) => (
           <motion.div
-          key={index}
-          variants={staggerVariants}
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{once: true}}
-          custom={index}
+            key={index}
+            variants={staggerVariants}
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true }}
+            custom={index}
           >
             <Card className="w-full h-[180px] shadow-sm hover:shadow-md transition-all">
               <CardHeader>

@@ -1,16 +1,28 @@
-import FeatureCard from "@/components/FeatureCard/FeatureCard";
 import LandingPage from "@/components/LandingPage/LandingPage";
 import Nav from "@/components/Navigation/Nav";
-import TypeWritter from "@/components/TypeWritter/TypeWritter";
+import { SelectSymptoms } from "@/components/Symptoms/SelectSymptoms";
+import TypeWritterEffect from "@/components/Symptoms/TypewriterEffect";
+import { useUser } from "@auth0/nextjs-auth0/client";
 import React from "react";
 
 export default function Home() {
+
+  const {user} = useUser()
+  console.log(user)
+
   return (
-    <div className="flex flex-col w-full min-h-screen gap-4">
-      
-      {/* <Nav /> */}
-      <LandingPage />
-      <TypeWritter />
+    <div className="">
+
+      <Nav />
+      <div className="h-full md:h-screen">
+        <LandingPage />
+      </div>
+
+      <div id="symptoms" className="h-screen">
+        <TypeWritterEffect />
+        <SelectSymptoms />
+      </div>
+
     </div>
   );
 }

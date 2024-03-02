@@ -26,7 +26,14 @@ function LandingPage() {
               fuga consequatur tempora libero commodi cumque omnis cupiditate
               sunt deleniti amet.
             </div>
-            <Button className="mt-5" data-aos="fade-right">Get Started</Button>
+            <Button
+            onClick={() => {
+              const scrollToSymptoms = document.querySelector("#symptoms")
+              scrollToSymptoms?.scrollIntoView({
+                behavior: "smooth"
+              })
+            }}
+             className="mt-5" data-aos="fade-right">Get Started</Button>
           </div>
 
           <div className="hidden md:block w-full landingpage-right">

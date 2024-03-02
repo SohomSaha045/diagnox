@@ -61,6 +61,7 @@ export function SelectSymptoms() {
       </Popover>
 
       <Button
+      className="mx-3"
       disabled={symptomsPresent.length>=3 ? false : true}      
       >
         Submit

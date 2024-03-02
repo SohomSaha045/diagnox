@@ -1,3 +1,4 @@
+import Nav from "@/components/Navigation/Nav";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -5,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <div className="max-w-7xl mx-auto px-5">
+        <div className="">
           <Main />
           <NextScript />
         </div>

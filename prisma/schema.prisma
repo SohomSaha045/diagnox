@@ -20,3 +20,11 @@ model Doctor {
   stars           Float
   numberOfReviews Int
 }
+
+model Patient {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  email    String
+  diseases String[] @default([])
+  doctors  String[] @default([])
+}

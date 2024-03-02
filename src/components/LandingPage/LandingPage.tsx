@@ -12,12 +12,12 @@ function LandingPage() {
   }, []);
   return (
     <>
-      <div className="space-y-5 max-w-7xl mx-auto">
-        <div className="landing-page-wrapper h-screen md:h-[60vh] grid grid-cols-1 md:grid-cols-2">
-          <div className="px-10 landing-page-left h-[400px] pt-14">
-            <div className="text-[54px] font-weight-6800 mt-10" data-aos="fade-right">
+      <div className="space-y-5">
+        <div className="landing-page-wrapper grid grid-cols-1 md:grid-cols-2">
+          <div className="landing-page-left h-full md:h-[70vh] pt-14">
+            <div className="text-[54px] font-bold mt-10" data-aos="fade-right">
               Your Health -{" "}
-              <span className="text-[54px] font-weight-6800 mt-10 text-primary">
+              <span className="text-[54px] font-bold text-primary">
                 Is Our Mission
               </span>
             </div>
@@ -40,7 +40,9 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <FeatureCard />
+        <div>
+          <FeatureCard />
+        </div>
       </div>
     </>
   );

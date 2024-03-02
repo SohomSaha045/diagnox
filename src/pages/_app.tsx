@@ -11,6 +11,8 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Layout from "@/layout/Layout";
 import Head from "next/head";
 import { ThemeProvider } from "@/components/theme-provider";
+import { UserProvider } from '@auth0/nextjs-auth0/client';
+
 export default function App({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(() => new QueryClient());
 
@@ -21,6 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="Home" content="Home" />
         <link rel="icon" type="text/html" />
       </Head>
+      <UserProvider>
       <QueryClientProvider client={queryClient}>
         <HydrationBoundary state={pageProps.dehydratedState}>
           <ThemeProvider attribute="class" defaultTheme="light">
@@ -31,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <ReactQueryDevtools initialIsOpen={false} />
         </HydrationBoundary>
       </QueryClientProvider>
+      </UserProvider>
     </>
   );
 }

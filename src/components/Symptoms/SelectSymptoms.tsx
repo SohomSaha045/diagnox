@@ -17,7 +17,7 @@ import {
 import { symptoms } from "@/data/symptoms";
 import Link from "next/link";
 
-export function SelectSymptoms() {
+export function SelectSymptoms({lat, long}) {
   const [open, setOpen] = React.useState(false);
   const [symptomsPresent, setSymptomsPresent] = React.useState<string[]>([]);
   const query = symptomsPresent.join(",")

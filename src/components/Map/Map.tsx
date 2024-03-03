@@ -38,12 +38,14 @@ const Map = () => {
     }
 
     return (
-        <div>
+        <div className='mt-5'>
 
-            <MapContainer style={{
+            <MapContainer
+            
+            style={{
                 height: '100vh',
                 width: '50vw'
-            }} center={coord} zoom={13} scrollWheelZoom={false}>
+            }} center={[22.2430295, 84.9088836]} zoom={13} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -59,7 +61,7 @@ const Map = () => {
                         // shadowUrl: MarkerShadow.src,
                         shadowSize: [41, 41],
                     })
-                } position={[51.505, -0.09]}>
+                } position={[22.2430295, 84.9088836]}>
                      <Popup>
                         A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>

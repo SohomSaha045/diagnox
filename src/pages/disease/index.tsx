@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/router";
 import { Loader2Icon } from "lucide-react";
 
-function index() {
+function index({lat, long}) {
   const router = useRouter();
   const [isLoading, setIsLoading] = React.useState(true);
 

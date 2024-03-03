@@ -47,15 +47,15 @@ export default function DocList(): JSX.Element {
             <CardDescription className="text-md">
               {item.category}
             </CardDescription>
-            <a href={item.address}>
-              <p className="text-primary text-md">View On Google Maps</p>
-            </a>
+            <p className="text-primary text-md">{item.address}</p>
             <span className="flex flex-row items-centre gap-2 fill-current text-yellow-500">
               {"★".repeat(Math.round(item.stars))}
             </span>
           </CardContent>
           <CardFooter>
-            <Button>View On Google Maps</Button>
+            <Link target="_blank" href={item.googleUrl ? item.googleUrl : ""}>
+              <Button>View On Google Maps</Button>
+            </Link>
           </CardFooter>
         </Card>
       ))}

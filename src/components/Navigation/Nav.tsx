@@ -24,7 +24,7 @@ export default function Nav() {
   }
 
   return (
-    <div className="navbar flex flex-row justify-between items-center pt-2">
+    <div className="px-3 navbar flex flex-row justify-between items-center pt-2">
       <Link href="/">
         <div id="logo" className="text-black-600 text-3xl font-bold">
           Diagon<span className="text-primary">X</span>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   :root {
     --background: 168 100% 100%;
     --foreground: 168 5% 10%;
@@ -27,40 +28,35 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --background: 168 50% 10%;
+    --foreground: 168 5% 100%;
+    --card: 168 50% 10%;
+    --card-foreground: 168 5% 100%;
+    --popover: 168 50% 5%;
+    --popover-foreground: 168 5% 100%;
+    --primary: 168 58.1% 62.5%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 168 30% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 130 30% 25%;
+    --muted-foreground: 168 5% 65%;
+    --accent: 130 30% 25%;
+    --accent-foreground: 168 5% 95%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 168 5% 100%;
+    --border: 168 30% 50%;
+    --input: 168 30% 50%;
+    --ring: 168 58.1% 62.5%;
+    --radius: 0.5rem;
   }
+
 }
 
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -80,6 +76,7 @@
 .map-component-wrapper {
   max-height: 100vh;
 }
+
 .doctors-list {
   min-height: 100vh;
   max-height: 100%;

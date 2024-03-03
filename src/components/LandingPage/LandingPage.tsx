@@ -21,11 +21,7 @@ function LandingPage() {
                 Is Our Mission
               </span>
             </div>
-            <div className="text-[18px] font-weight-6800 mt-6" data-aos="fade-right">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
-              fuga consequatur tempora libero commodi cumque omnis cupiditate
-              sunt deleniti amet.
-            </div>
+            <div className="text-[18px] font-weight-6800 mt-6" data-aos="fade-right">Predictive symptom analysis for personalized health recommendations. Find relevant specialists for tailored care. Your health, our priority</div>
             <Button
             onClick={() => {
               const scrollToSymptoms = document.querySelector("#symptoms")

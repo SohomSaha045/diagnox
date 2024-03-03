@@ -26,16 +26,18 @@ export default function Nav() {
 
   return (
     <div className="navbar flex flex-row justify-between items-center pt-2">
-      <div className="text-primary text-3xl font-bold">Logo</div>
+      <div className="text-primary text-3xl font-bold">
+        <Image src="/logo.png" alt="logo1" width={150} height={50} />
+      </div>
 
-      <div className="buttons flex gap-2">
+      <div className="buttons flex items-center gap-5">
         <MenuToggle />
         <div>
           {user === undefined
             ? <Link href="/api/auth/login"><Button variant="outline">Login</Button></Link>
             : <div className="flex items-center gap-2">
-              <Image src={user.picture as string} alt="dp" width={32} height={32} className="rounded-full" />
-              <p className="text-xl">{user.name}</p>
+              <Image src={user.picture as string} alt="dp" width={45} height={32} className="rounded-full" />
+              <p className="text-2xl">{user.name}</p>
             </div>
           }
         </div>

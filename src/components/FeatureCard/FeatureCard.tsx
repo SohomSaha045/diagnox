@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import {
   Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
+  CardDescription,
 } from "@/components/ui/card";
-import { HeartPulse } from "lucide-react";
+import { HeartPulse, Stethoscope } from "lucide-react";
 import { data } from "../../CardData/CardData";
+
+import { Ambulance } from 'lucide-react';
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -34,7 +34,9 @@ const FeatureCard = () => {
             <Card className="w-full h-[180px] shadow-sm hover:shadow-md transition-all">
               <CardHeader>
                 <div className="card-icon-wrapper bg-primary text-secondary w-10 h-10 flex items-center justify-center rounded-full">
-                  <HeartPulse />
+                  {item.title === 'Predict diseases' && <HeartPulse />}
+                  {item.title === 'Get cures' && <Ambulance />}
+                  {item.title === 'Find doctors' && <Stethoscope />}
                 </div>
                 <CardTitle className="border-b border-primary w-1/2 pb-2">
                   {item.title}

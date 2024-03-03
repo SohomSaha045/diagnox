@@ -8,9 +8,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 import axios from "axios";
-import { Star } from 'lucide-react';
+import { Star } from "lucide-react";
 
 export default function DocList(): JSX.Element {
   const [doctorsData, setDoctorsData] = React.useState<any[]>([]); // You might want to replace `any[]` with a more specific type
@@ -22,7 +23,6 @@ export default function DocList(): JSX.Element {
         setDoctorsData(response.data); // Assuming your data is directly an array
         let firstDoctorAddress = response.data[0].address;
         console.log(firstDoctorAddress);
-        
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -39,15 +39,23 @@ export default function DocList(): JSX.Element {
           className="w-full min-h-[180px] h-auto shadow-sm hover:shadow-md transition-all"
         >
           <CardHeader>
-            <CardTitle className="font-3xl font-bold text-lg">{item.doctorName}</CardTitle>
+            <CardTitle className="font-3xl font-bold text-lg">
+              {item.doctorName}
+            </CardTitle>
           </CardHeader>
           <CardContent>
-            <CardDescription className="text-md">{item.category}</CardDescription>
-            <p className="text-primary text-md">{item.address}</p>
-            <span className="flex flex-row items-centre gap-2 fill-current text-yellow-500">{'★'.repeat(Math.round(item.stars))}</span>
+            <CardDescription className="text-md">
+              {item.category}
+            </CardDescription>
+            <a href={item.address}>
+              <p className="text-primary text-md">View On Google Maps</p>
+            </a>
+            <span className="flex flex-row items-centre gap-2 fill-current text-yellow-500">
+              {"★".repeat(Math.round(item.stars))}
+            </span>
           </CardContent>
           <CardFooter>
-              <Button>View On Google Maps</Button>
+            <Button>View On Google Maps</Button>
           </CardFooter>
         </Card>
       ))}

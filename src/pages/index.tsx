@@ -6,7 +6,6 @@ import TypeWritterEffect from "@/components/Symptoms/TypewriterEffect";
 import { useUser } from "@auth0/nextjs-auth0/client";
 
 export default function Home() {
-  
   const { user } = useUser();
   console.log(user);
 
@@ -29,12 +28,7 @@ export default function Home() {
             <SelectSymptoms />
           </div>
         </div>
-
-
       </div>
-
-
-      <DeseaseCard />
     </div>
   );
 }

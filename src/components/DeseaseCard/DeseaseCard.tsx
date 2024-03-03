@@ -12,15 +12,15 @@ import { Button } from "@/components/ui/button";
 function DeseaseCard() {
   return (
     <>
-      <Card className="w-full min-h-[180px] h-auto shadow-sm hover:shadow-md transition-all">
+      <Card className="w-full mb-4 min-h-[180px] h-auto shadow-sm hover:shadow-md transition-all">
         <CardHeader>
-          <CardTitle>Desease Name</CardTitle>
+          <CardTitle className="text-xl text-primary font-bold">Diseases Name</CardTitle>
         </CardHeader>
         <CardContent>
-          <CardDescription>Desease Description</CardDescription>
+          <CardDescription className="text-md foont-light">Docrors Name</CardDescription>
         </CardContent>
-        <CardFooter>
-          <p>Desease Cure</p>
+        <CardFooter className="text-lg font-regular">
+          Diets Prescribed
         </CardFooter>
         <Button className="mx-5 mb-4" variant="outline">
           Check

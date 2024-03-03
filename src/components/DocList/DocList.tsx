@@ -10,7 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 import axios from "axios";
-import { Link } from "lucide-react";
+import { Star } from 'lucide-react';
 
 export default function DocList(): JSX.Element {
   const [doctorsData, setDoctorsData] = React.useState<any[]>([]); // You might want to replace `any[]` with a more specific type
@@ -32,19 +32,19 @@ export default function DocList(): JSX.Element {
   }, []); // Empty dependency array means it runs only once after component mount
 
   return (
-    <div className="flex flex-col w-full min-h-screen gap-4 mt-5 mb-5">
+    <div className="flex flex-col w-full min-h-screen gap-4 mt-5 mb-5 scrollbar scrollbar-w-0">
       {doctorsData.map((item, index) => (
         <Card
           key={index} // Ensure to provide a unique key for each item in the list
           className="w-full min-h-[180px] h-auto shadow-sm hover:shadow-md transition-all"
         >
           <CardHeader>
-            <CardTitle>{item.doctorName}</CardTitle>
+            <CardTitle className="font-3xl font-bold text-lg">{item.doctorName}</CardTitle>
           </CardHeader>
           <CardContent>
-            <CardDescription>{item.category}</CardDescription>
-            <p>{item.address}</p>
-            <span>{item.ratingText}</span>
+            <CardDescription className="text-md">{item.category}</CardDescription>
+            <p className="text-primary text-md">{item.address}</p>
+            <span className="flex flex-row items-centre gap-2 fill-current text-yellow-500">{'★'.repeat(Math.round(item.stars))}</span>
           </CardContent>
           <CardFooter>
               <Button>View On Google Maps</Button>
